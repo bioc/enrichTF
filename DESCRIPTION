@@ -1,7 +1,7 @@
 Package: enrichTF
 Type: Package
 Title: Transcription Factors Enrichment Analysis
-Version: 1.19.0
+Version: 1.19.1
 Author: Zheng Wei, Zhana Duren, Shining Ma
 Maintainer: Zheng Wei <wzwz@stanford.edu>
 Description: As transcription factors (TFs) 
@@ -63,8 +63,10 @@ Collate:
     untils.R
     Method.R
     GeneOntology.R
+    zzz.R
 RoxygenNote: 7.0.2
 VignetteBuilder: knitr
 biocViews: Software, GeneTarget, MotifAnnotation, GraphAndNetwork, Transcription  
 URL: https://github.com/wzthu/enrichTF
 BugReports: https://github.com/wzthu/enrichTF/issues
+PackageStatus: Deprecated
